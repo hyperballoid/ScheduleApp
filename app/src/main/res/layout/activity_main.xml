@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/namesInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть імена (через кому)"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/dateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата (dd-MM-yyyy)" />
+
+    <EditText
+        android:id="@+id/daysInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Доби графіку"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/shiftDurationInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Години зміни"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Згенерувати" />
+
+    <TextView
+        android:id="@+id/scheduleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+</LinearLayout>
