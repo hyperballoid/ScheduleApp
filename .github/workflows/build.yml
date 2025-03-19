@@ -20,7 +20,7 @@ jobs:
           java-version: '17'
 
       - name: Build with Gradle
-        uses: gradle/wrapper-action@v3
+        uses: gradle/wrapper-action@v3.0.0  # Точно вказуємо версію v3.0.0
         with:
           arguments: assembleDebug
 
