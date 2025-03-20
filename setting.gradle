@@ -1,2 +1,9 @@
+pluginManagement {
+    repositories {
+        google()
+        gradlePluginPortal()
+    }
+}
+
 rootProject.name = "ScheduleApp"
 include ':app'
